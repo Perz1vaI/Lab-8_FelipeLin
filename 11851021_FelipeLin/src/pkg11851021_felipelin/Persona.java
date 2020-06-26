@@ -15,7 +15,7 @@ public class Persona {
 
     protected String id;
     protected String nombre;
-    protected String edad;
+    protected int edad;
     protected String sexo;
     protected String estadoc;
     protected double altura;
@@ -25,7 +25,7 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String id, String nombre, String edad, String sexo, String estadoc, double altura, double peso) {
+    public Persona(String id, String nombre, int edad, String sexo, String estadoc, double altura, double peso) {
         this.id = id;
         this.nombre = nombre;
         this.edad = edad;
@@ -51,11 +51,11 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public String getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public void setEdad(String edad) {
+    public void setEdad(int edad) {
         this.edad = edad;
     }
 

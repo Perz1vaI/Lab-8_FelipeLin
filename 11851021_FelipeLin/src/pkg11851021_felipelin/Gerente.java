@@ -19,7 +19,7 @@ public class Gerente extends Persona {
 
     }
 
-    public Gerente(String user, String pass, String cargo, String id, String nombre, String edad, String sexo, String estadoc, double altura, double peso) {
+    public Gerente(String user, String pass, String cargo, String id, String nombre, int edad, String sexo, String estadoc, double altura, double peso) {
         super(id, nombre, edad, sexo, estadoc, altura, peso);
         this.user = user;
         this.pass = pass;

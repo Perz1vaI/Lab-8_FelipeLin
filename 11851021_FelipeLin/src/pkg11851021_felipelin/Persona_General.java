@@ -19,7 +19,7 @@ public class Persona_General extends Persona {
     public Persona_General() {
     }
 
-    public Persona_General(String ocupacion, String horario, String trabajando, double sueldo, String id, String nombre, String edad, String sexo, String estadoc, double altura, double peso) {
+    public Persona_General(String ocupacion, String horario, String trabajando, double sueldo, String id, String nombre, int edad, String sexo, String estadoc, double altura, double peso) {
         super(id, nombre, edad, sexo, estadoc, altura, peso);
         this.ocupacion = ocupacion;
         this.horario = horario;
