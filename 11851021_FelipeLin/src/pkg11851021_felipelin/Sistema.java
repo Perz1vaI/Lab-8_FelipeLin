@@ -1533,7 +1533,6 @@ public class Sistema extends javax.swing.JFrame {
                     dc6.removeElementAt(eliminar);
                     dc.removeElementAt(eliminar);
 
-                    cb_contactos.setModel(dc);
                     cb_persona.setModel(dc2);
                     cb_persona1.setModel(dc3);
                     cb_persona2.setModel(dc4);
@@ -1572,26 +1571,6 @@ public class Sistema extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(this, "Usted ingreso equivocado las poicion!");
                 } else {
                     lista2.remove(eliminar);
-                    DefaultComboBoxModel dc = (DefaultComboBoxModel) cb_contactos.getModel();
-                    DefaultComboBoxModel dc2 = (DefaultComboBoxModel) cb_persona.getModel();
-                    DefaultComboBoxModel dc3 = (DefaultComboBoxModel) cb_persona1.getModel();
-                    DefaultComboBoxModel dc4 = (DefaultComboBoxModel) cb_persona2.getModel();
-                    DefaultComboBoxModel dc5 = (DefaultComboBoxModel) cb_emisor.getModel();
-                    DefaultComboBoxModel dc6 = (DefaultComboBoxModel) cb_receptor.getModel();
-
-                    dc2.removeElementAt(eliminar);
-                    dc3.removeElementAt(eliminar);
-                    dc4.removeElementAt(eliminar);
-                    dc5.removeElementAt(eliminar);
-                    dc6.removeElementAt(eliminar);
-                    dc.removeElementAt(eliminar);
-
-                    cb_contactos.setModel(dc);
-                    cb_persona.setModel(dc2);
-                    cb_persona1.setModel(dc3);
-                    cb_persona2.setModel(dc4);
-                    cb_emisor.setModel(dc5);
-                    cb_receptor.setModel(dc6);
 
                     JOptionPane.showMessageDialog(this, "Se elimino con exito!");
 
