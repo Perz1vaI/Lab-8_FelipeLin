@@ -236,6 +236,7 @@ public class Sistema extends javax.swing.JFrame {
         bg_masc.setBackground(new java.awt.Color(204, 204, 204));
         bg_sexo.add(bg_masc);
         bg_masc.setForeground(new java.awt.Color(0, 0, 0));
+        bg_masc.setSelected(true);
         bg_masc.setText("Masculino");
 
         bg_fem.setBackground(new java.awt.Color(204, 204, 204));
@@ -247,7 +248,7 @@ public class Sistema extends javax.swing.JFrame {
 
         cb_estado.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Soltero/a", "Casado/a", "Divorciado/a", "Viudo/a" }));
 
-        js_peso.setModel(new javax.swing.SpinnerNumberModel(80.0d, 70.0d, 400.0d, 1.0d));
+        js_peso.setModel(new javax.swing.SpinnerNumberModel(80.5d, 70.0d, 400.0d, 1.0d));
 
         js_altura.setModel(new javax.swing.SpinnerNumberModel(1.6d, 1.5d, 3.0d, 0.05d));
 
@@ -421,6 +422,7 @@ public class Sistema extends javax.swing.JFrame {
         bg_masc1.setBackground(new java.awt.Color(0, 102, 51));
         bg_sexo2.add(bg_masc1);
         bg_masc1.setForeground(new java.awt.Color(255, 255, 255));
+        bg_masc1.setSelected(true);
         bg_masc1.setText("Masculino");
         panel_general.add(bg_masc1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 70, -1, -1));
 
@@ -433,8 +435,8 @@ public class Sistema extends javax.swing.JFrame {
         js_altura1.setModel(new javax.swing.SpinnerNumberModel(1.6d, 1.5d, 3.0d, 0.05d));
         panel_general.add(js_altura1, new org.netbeans.lib.awtextra.AbsoluteConstraints(101, 171, 160, 28));
 
-        js_peso1.setModel(new javax.swing.SpinnerNumberModel(80.0d, 70.0d, 400.0d, 1.0d));
-        panel_general.add(js_peso1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 110, 193, 28));
+        js_peso1.setModel(new javax.swing.SpinnerNumberModel(80.5d, 70.0d, 400.0d, 1.0d));
+        panel_general.add(js_peso1, new org.netbeans.lib.awtextra.AbsoluteConstraints(473, 110, 220, 28));
 
         Menu_crear.addTab("Crear Persona General", panel_general);
 
@@ -499,7 +501,7 @@ public class Sistema extends javax.swing.JFrame {
                                 .addGroup(panel_ropaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                     .addComponent(cb_persona, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(tf_ropa_tipo, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 118, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 125, Short.MAX_VALUE)
                                 .addComponent(jLabel103)))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_ropaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -507,7 +509,7 @@ public class Sistema extends javax.swing.JFrame {
                     .addComponent(tf_ropa_talla)
                     .addComponent(tf_ropa_tam)
                     .addComponent(tf_ropa_descrip, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
             .addGroup(panel_ropaLayout.createSequentialGroup()
                 .addGroup(panel_ropaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(panel_ropaLayout.createSequentialGroup()
@@ -633,7 +635,7 @@ public class Sistema extends javax.swing.JFrame {
                                         .addComponent(jLabel112, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                                     .addGroup(panel_zapatoLayout.createSequentialGroup()
                                         .addComponent(tf_zapato_suela, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 154, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 161, Short.MAX_VALUE)
                                         .addComponent(jLabel111)))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(panel_zapatoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -641,7 +643,7 @@ public class Sistema extends javax.swing.JFrame {
                             .addComponent(tf_zapato_talla)
                             .addComponent(tf_zapato_tam)
                             .addComponent(tf_zapato_descrip, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(34, Short.MAX_VALUE))
+                        .addContainerGap(41, Short.MAX_VALUE))
                     .addGroup(panel_zapatoLayout.createSequentialGroup()
                         .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
@@ -769,7 +771,7 @@ public class Sistema extends javax.swing.JFrame {
                                 .addComponent(jLabel120, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(panel_hogarLayout.createSequentialGroup()
                                 .addComponent(tf_hogar_funcion, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 158, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 165, Short.MAX_VALUE)
                                 .addComponent(jLabel119)))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_hogarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -777,7 +779,7 @@ public class Sistema extends javax.swing.JFrame {
                     .addComponent(tf_hogar_lugar)
                     .addComponent(tf_hogar_tam)
                     .addComponent(tf_hogar_descrip, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addContainerGap(42, Short.MAX_VALUE))
             .addGroup(panel_hogarLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(panel_hogarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1219,8 +1221,8 @@ public class Sistema extends javax.swing.JFrame {
                 user = tf_gerente_usuario.getText();
                 pass = tf_gerente_pass.getText();
                 cargo = tf_gerente_cargo.getText();
-                altura = (Integer) js_altura.getValue();
-                peso = (Integer) js_peso.getValue();
+                altura = (Double) js_altura.getValue();
+                peso = (Double) js_peso.getValue();
 
                 if (bg_masc.isSelected()) {
                     sexo = "Masculino";
@@ -1280,7 +1282,7 @@ public class Sistema extends javax.swing.JFrame {
                 tf_gerente_pass.setText("");
                 tf_gerente_cargo.setText("");
                 js_altura.setValue(1.6);
-                js_peso.setValue(70);
+                js_peso.setValue(80.5);
 
                 JOptionPane.showMessageDialog(this, "Agregado con exito");
                 Menu_crear.setEnabledAt(2, true);
@@ -1288,6 +1290,7 @@ public class Sistema extends javax.swing.JFrame {
                 Menu_crear.setEnabledAt(4, true);
 
             } catch (Exception e) {
+                e.printStackTrace();
                 JOptionPane.showConfirmDialog(this, "Ocurrio un error y no se guardaron los datos");
 
             }
@@ -1314,9 +1317,9 @@ public class Sistema extends javax.swing.JFrame {
                 ocupacion = tf_general_ocup.getText();
                 trabajando = tf_general_tiempo.getText();
                 horario = tf_general_horario.getText();
-                altura = (Integer) js_altura1.getValue();
-                peso = (Integer) js_peso1.getValue();
-                sueldo = Integer.parseInt(tf_general_sueldo.getText());
+                altura = (Double) js_altura1.getValue();
+                peso = (Double) js_peso1.getValue();
+                sueldo = Double.parseDouble(tf_general_sueldo.getText());
 
                 if (bg_masc1.isSelected()) {
                     sexo = "Masculino";
@@ -1376,7 +1379,7 @@ public class Sistema extends javax.swing.JFrame {
                 tf_general_tiempo.setText("");
                 tf_general_horario.setText("");
                 js_altura1.setValue(1.6);
-                js_peso1.setValue(70);
+                js_peso1.setValue(80.5);
                 tf_general_sueldo.setText("");
 
                 Menu_crear.setEnabledAt(2, true);
@@ -1548,6 +1551,8 @@ public class Sistema extends javax.swing.JFrame {
 
                 JOptionPane.showMessageDialog(this, "Se mando el mensaje con exito");
 
+                ta_mensaje.setText("");
+
             } catch (Exception e) {
                 JOptionPane.showConfirmDialog(this, "Ocurrio un error y no se guardaron los datos");
 
@@ -1577,19 +1582,21 @@ public class Sistema extends javax.swing.JFrame {
         String rol = "";
         if (evt.getStateChange() == 2) {
             Persona s = (Persona) cb_contactos.getSelectedItem();
-            if (s instanceof Gerente) {
-                rol = "Gerente";
-            } else if (s instanceof Persona_General) {
-                rol = "Persona General";
+            if (s.getMensajes().size() >= 0) {
+                if (s instanceof Gerente) {
+                    rol = "Gerente";
+                } else if (s instanceof Persona_General) {
+                    rol = "Persona General";
+                }
+                String cadena = "";
+                for (int i = 0; i < s.getMensajes().size(); i++) {
+                    cadena += s.getMensajes().toString() + "\n";
+                }
+                Object[] newrow = {cadena, rol};
+                DefaultTableModel modelo = (DefaultTableModel) tabla_contacto.getModel();
+                modelo.addRow(newrow);
+                tabla_contacto.setModel(modelo);
             }
-            String cadena = "";
-            for (int i = 0; i < s.getMensajes().size(); i++) {
-                cadena += s.getMensajes().get(i) + "\n";
-            }
-            Object[] newrow = {cadena, rol};
-            DefaultTableModel modelo = (DefaultTableModel) tabla_contacto.getModel();
-            modelo.addRow(newrow);
-            tabla_contacto.setModel(modelo);
 
         }
     }//GEN-LAST:event_cb_contactosItemStateChanged
@@ -1625,10 +1632,33 @@ public class Sistema extends javax.swing.JFrame {
                     s += "\n";
                 }
                 int eliminar = Integer.parseInt(JOptionPane.showInputDialog(this, s + "\nIngrese la posicion:"));
-                if (eliminar < lista.size() || eliminar > lista.size()) {
+                if (eliminar < -1 || eliminar > lista.size()) {
                     JOptionPane.showMessageDialog(this, "Usted ingreso equivocado las poicion!");
                 } else {
                     lista.remove(eliminar);
+                    DefaultComboBoxModel dc = (DefaultComboBoxModel) cb_contactos.getModel();
+                    DefaultComboBoxModel dc2 = (DefaultComboBoxModel) cb_persona.getModel();
+                    DefaultComboBoxModel dc3 = (DefaultComboBoxModel) cb_persona1.getModel();
+                    DefaultComboBoxModel dc4 = (DefaultComboBoxModel) cb_persona2.getModel();
+                    DefaultComboBoxModel dc5 = (DefaultComboBoxModel) cb_emisor.getModel();
+                    DefaultComboBoxModel dc6 = (DefaultComboBoxModel) cb_receptor.getModel();
+
+                    dc2.removeElementAt(eliminar);
+                    dc3.removeElementAt(eliminar);
+                    dc4.removeElementAt(eliminar);
+                    dc5.removeElementAt(eliminar);
+                    dc6.removeElementAt(eliminar);
+                    dc.removeElementAt(eliminar);
+
+                    cb_contactos.setModel(dc);
+                    cb_persona.setModel(dc2);
+                    cb_persona1.setModel(dc3);
+                    cb_persona2.setModel(dc4);
+                    cb_emisor.setModel(dc5);
+                    cb_receptor.setModel(dc6);
+
+                    JOptionPane.showMessageDialog(this, "Se elimino con exito!");
+
                 }
 
             } else {
@@ -1655,10 +1685,33 @@ public class Sistema extends javax.swing.JFrame {
                     s += "\n";
                 }
                 int eliminar = Integer.parseInt(JOptionPane.showInputDialog(this, s + "\nIngrese la posicion:"));
-                if (eliminar < lista2.size() || eliminar > lista2.size()) {
+                if (eliminar < -1 || eliminar > lista2.size()) {
                     JOptionPane.showMessageDialog(this, "Usted ingreso equivocado las poicion!");
                 } else {
                     lista2.remove(eliminar);
+                    DefaultComboBoxModel dc = (DefaultComboBoxModel) cb_contactos.getModel();
+                    DefaultComboBoxModel dc2 = (DefaultComboBoxModel) cb_persona.getModel();
+                    DefaultComboBoxModel dc3 = (DefaultComboBoxModel) cb_persona1.getModel();
+                    DefaultComboBoxModel dc4 = (DefaultComboBoxModel) cb_persona2.getModel();
+                    DefaultComboBoxModel dc5 = (DefaultComboBoxModel) cb_emisor.getModel();
+                    DefaultComboBoxModel dc6 = (DefaultComboBoxModel) cb_receptor.getModel();
+
+                    dc2.removeElementAt(eliminar);
+                    dc3.removeElementAt(eliminar);
+                    dc4.removeElementAt(eliminar);
+                    dc5.removeElementAt(eliminar);
+                    dc6.removeElementAt(eliminar);
+                    dc.removeElementAt(eliminar);
+
+                    cb_contactos.setModel(dc);
+                    cb_persona.setModel(dc2);
+                    cb_persona1.setModel(dc3);
+                    cb_persona2.setModel(dc4);
+                    cb_emisor.setModel(dc5);
+                    cb_receptor.setModel(dc6);
+
+                    JOptionPane.showMessageDialog(this, "Se elimino con exito!");
+
                 }
             } else {
                 JOptionPane.showMessageDialog(this, "No hay nada en la lista agregue a la lista! ");
@@ -1683,7 +1736,7 @@ public class Sistema extends javax.swing.JFrame {
                     s += "\n";
                 }
                 int modi = Integer.parseInt(JOptionPane.showInputDialog(this, s + "\nIngrese la posicion:"));
-                if (modi < lista.size() || modi > lista.size()) {
+                if (modi < -1 || modi > lista.size()) {
                     JOptionPane.showMessageDialog(this, "Usted ingreso equivocado las poicion!");
                 } else {
                     if (lista.get(modi) instanceof Gerente) {
@@ -1699,12 +1752,26 @@ public class Sistema extends javax.swing.JFrame {
                         user = JOptionPane.showInputDialog(this, "Ingrese el nuevo usario");
                         pass = JOptionPane.showInputDialog(this, "Ingrese la nueva contraseña");
                         cargo = JOptionPane.showInputDialog(this, "Ingrese el nuevo cargo");
-                        altura = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese la nueva altura"));
-                        peso = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese el nuevo peso"));
+                        altura = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese la nueva altura"));
+                        peso = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese el nuevo peso"));
 
                         Gerente x = new Gerente(user, pass, cargo, id, nombre, edad, sexo, estadoc, altura, peso);
 
                         lista.set(modi, x);
+
+                        DefaultComboBoxModel dc = (DefaultComboBoxModel) cb_contactos.getModel();
+                        DefaultComboBoxModel dc2 = (DefaultComboBoxModel) cb_persona.getModel();
+                        DefaultComboBoxModel dc3 = (DefaultComboBoxModel) cb_persona1.getModel();
+                        DefaultComboBoxModel dc4 = (DefaultComboBoxModel) cb_persona2.getModel();
+                        DefaultComboBoxModel dc5 = (DefaultComboBoxModel) cb_emisor.getModel();
+                        DefaultComboBoxModel dc6 = (DefaultComboBoxModel) cb_receptor.getModel();
+
+                        ((Gerente) dc.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc2.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc3.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc4.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc5.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc6.getElementAt(modi)).setNombre(nombre);
                         JOptionPane.showMessageDialog(this, "Se modifico con exito!");
 
                     } else if (lista.get(modi) instanceof Persona_General) {
@@ -1720,13 +1787,26 @@ public class Sistema extends javax.swing.JFrame {
                         horario = JOptionPane.showInputDialog(this, "Ingrese el nuevo horario de trabajo");
                         ocupacion = JOptionPane.showInputDialog(this, "Ingrese la nueva ocupacion");
                         trabajando = JOptionPane.showInputDialog(this, "Ingrese el nuevo tiempo");
-                        altura = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese la nueva altura"));
-                        peso = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese el nuevo peso"));
-                        sueldo = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese el nuevo sueldo"));
+                        altura = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese la nueva altura"));
+                        peso = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese el nuevo peso"));
+                        sueldo = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese el nuevo sueldo"));
 
                         Persona_General x = new Persona_General(ocupacion, horario, trabajando, sueldo, id, nombre, edad, sexo, estadoc, altura, peso);
 
                         lista.set(modi, x);
+                        DefaultComboBoxModel dc = (DefaultComboBoxModel) cb_contactos.getModel();
+                        DefaultComboBoxModel dc2 = (DefaultComboBoxModel) cb_persona.getModel();
+                        DefaultComboBoxModel dc3 = (DefaultComboBoxModel) cb_persona1.getModel();
+                        DefaultComboBoxModel dc4 = (DefaultComboBoxModel) cb_persona2.getModel();
+                        DefaultComboBoxModel dc5 = (DefaultComboBoxModel) cb_emisor.getModel();
+                        DefaultComboBoxModel dc6 = (DefaultComboBoxModel) cb_receptor.getModel();
+
+                        ((Gerente) dc.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc2.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc3.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc4.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc5.getElementAt(modi)).setNombre(nombre);
+                        ((Gerente) dc6.getElementAt(modi)).setNombre(nombre);
                         JOptionPane.showMessageDialog(this, "Se modifico con exito!");
                     }
                 }
@@ -1753,7 +1833,7 @@ public class Sistema extends javax.swing.JFrame {
                     s += "\n";
                 }
                 int modi = Integer.parseInt(JOptionPane.showInputDialog(this, s + "\nIngrese la posicion"));
-                if (modi < lista2.size() || modi > lista2.size()) {
+                if (modi < -1 || modi > lista2.size()) {
                     JOptionPane.showMessageDialog(this, "Usted ingreso equivocado las poicion!");
                 } else {
                     if (lista2.get(modi) instanceof Ropa) {
@@ -1768,7 +1848,7 @@ public class Sistema extends javax.swing.JFrame {
                         calidad = JOptionPane.showInputDialog(this, "Ingrese la nueva calidad: ");
                         tipo = JOptionPane.showInputDialog(this, "Ingrese el nuevo tipo de tela: ");
                         pais = JOptionPane.showInputDialog(this, "Ingrese el nuevo pais donde fue elaborado: ");
-                        talla = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese la nueva talla: "));
+                        talla = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese la nueva talla: "));
 
                         Ropa x = new Ropa(talla, tipo, pais, color, descripcion, marca, size, calidad, new Persona());
 
@@ -1788,7 +1868,7 @@ public class Sistema extends javax.swing.JFrame {
                         size = JOptionPane.showInputDialog(this, "Ingrese el nuevo tamaño: ");
                         calidad = JOptionPane.showInputDialog(this, "Ingrese la nueva calidad: ");
                         suela = JOptionPane.showInputDialog(this, "Ingrese la nueva descripcion de la suela: ");
-                        talla = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese la nueva talla: "));
+                        talla = Double.parseDouble(JOptionPane.showInputDialog(this, "Ingrese la nueva talla: "));
                         comodidad = Integer.parseInt(JOptionPane.showInputDialog(this, "Ingrese la nueva comodidad: "));
 
                         Zapatos x = new Zapatos(talla, suela, comodidad, color, descripcion, marca, size, calidad, new Persona());

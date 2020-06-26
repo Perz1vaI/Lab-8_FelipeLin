@@ -401,6 +401,7 @@
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="0" green="0" red="0" type="rgb"/>
                             </Property>
+                            <Property name="selected" type="boolean" value="true"/>
                             <Property name="text" type="java.lang.String" value="Masculino"/>
                           </Properties>
                         </Component>
@@ -443,7 +444,7 @@
                         <Component class="javax.swing.JSpinner" name="js_peso">
                           <Properties>
                             <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
-                              <SpinnerModel initial="80.0" maximum="400.0" minimum="70.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
+                              <SpinnerModel initial="80.5" maximum="400.0" minimum="70.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
                             </Property>
                           </Properties>
                         </Component>
@@ -685,6 +686,7 @@
                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                               <Color blue="ff" green="ff" red="ff" type="rgb"/>
                             </Property>
+                            <Property name="selected" type="boolean" value="true"/>
                             <Property name="text" type="java.lang.String" value="Masculino"/>
                           </Properties>
                           <Constraints>
@@ -727,12 +729,12 @@
                         <Component class="javax.swing.JSpinner" name="js_peso1">
                           <Properties>
                             <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
-                              <SpinnerModel initial="80.0" maximum="400.0" minimum="70.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
+                              <SpinnerModel initial="80.5" maximum="400.0" minimum="70.0" numberType="java.lang.Double" stepSize="1.0" type="number"/>
                             </Property>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="480" y="110" width="193" height="28"/>
+                              <AbsoluteConstraints x="473" y="110" width="220" height="28"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -789,7 +791,7 @@
                                                       <Component id="cb_persona" alignment="0" max="32767" attributes="0"/>
                                                       <Component id="tf_ropa_tipo" alignment="0" pref="160" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <EmptySpace pref="118" max="32767" attributes="0"/>
+                                                  <EmptySpace pref="125" max="32767" attributes="0"/>
                                                   <Component id="jLabel103" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -802,7 +804,7 @@
                                       <Component id="tf_ropa_tam" alignment="0" max="32767" attributes="0"/>
                                       <Component id="tf_ropa_descrip" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="30" max="32767" attributes="0"/>
+                                  <EmptySpace pref="37" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -1023,7 +1025,7 @@
                                                       </Group>
                                                       <Group type="102" alignment="0" attributes="0">
                                                           <Component id="tf_zapato_suela" min="-2" pref="160" max="-2" attributes="0"/>
-                                                          <EmptySpace pref="154" max="32767" attributes="0"/>
+                                                          <EmptySpace pref="161" max="32767" attributes="0"/>
                                                           <Component id="jLabel111" min="-2" max="-2" attributes="0"/>
                                                       </Group>
                                                   </Group>
@@ -1036,7 +1038,7 @@
                                               <Component id="tf_zapato_tam" alignment="0" max="32767" attributes="0"/>
                                               <Component id="tf_zapato_descrip" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
                                           </Group>
-                                          <EmptySpace pref="34" max="32767" attributes="0"/>
+                                          <EmptySpace pref="41" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="jLabel4" min="-2" pref="61" max="-2" attributes="0"/>
@@ -1263,7 +1265,7 @@
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Component id="tf_hogar_funcion" min="-2" pref="160" max="-2" attributes="0"/>
-                                                  <EmptySpace pref="158" max="32767" attributes="0"/>
+                                                  <EmptySpace pref="165" max="32767" attributes="0"/>
                                                   <Component id="jLabel119" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
@@ -1276,7 +1278,7 @@
                                       <Component id="tf_hogar_tam" alignment="0" max="32767" attributes="0"/>
                                       <Component id="tf_hogar_descrip" alignment="0" min="-2" pref="190" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="35" max="32767" attributes="0"/>
+                                  <EmptySpace pref="42" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
