@@ -14,14 +14,14 @@ public class Objetos {
     protected String color;
     protected String descripcion;
     protected String marca;
-    protected String size;
+    protected double size;
     protected String calidad;
     protected Persona personas;
 
     public Objetos() {
     }
 
-    public Objetos(String color, String descripcion, String marca, String size, String calidad, Persona personas) {
+    public Objetos(String color, String descripcion, String marca, double size, String calidad, Persona personas) {
         this.color = color;
         this.descripcion = descripcion;
         this.marca = marca;
@@ -54,11 +54,11 @@ public class Objetos {
         this.marca = marca;
     }
 
-    public String getSize() {
+    public double getSize() {
         return size;
     }
 
-    public void setSize(String size) {
+    public void setSize(double size) {
         this.size = size;
     }
 

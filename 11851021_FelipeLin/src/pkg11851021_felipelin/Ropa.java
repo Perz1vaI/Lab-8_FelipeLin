@@ -18,7 +18,7 @@ public class Ropa extends Objetos {
     public Ropa() {
     }
 
-    public Ropa(double talla, String tipo, String pais, String color, String descripcion, String marca, String size, String calidad, Persona personas) {
+    public Ropa(double talla, String tipo, String pais, String color, String descripcion, String marca, double size, String calidad, Persona personas) {
         super(color, descripcion, marca, size, calidad, personas);
         this.talla = talla;
         this.tipo = tipo;
